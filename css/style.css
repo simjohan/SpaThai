@@ -125,3 +125,12 @@ footer {
 	bottom: 0;
 	height: 120px;
 }
+
+#facebookLink{
+	text-decoration: none;
+	font-family: Arial Regular, sans-serif;
+	font-size: 17pt;
+	color: #B9BFB7;
+	position: relative;
+	bottom: 4.3px;
+}
