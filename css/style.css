@@ -110,30 +110,30 @@ section{
 	text-align: center;
 	margin: 0 auto;
 }
+/*
+.left {
+	float:left;
+}
 
-/*.left {*/
-	/*float:left;*/
-/*}*/
+.right {
+	float:right;
+}
 
-/*.right {*/
-	/*float:right;*/
-/*}*/
+footer {
+	background: #7a8070;
+	padding-top: 40px;
+	bottom: 0;
+	height: 120px;
+}
 
-/*footer {*/
-	/*background: #7a8070;*/
-	/*padding-top: 40px;*/
-	/*bottom: 0;*/
-	/*height: 120px;*/
-/*}*/
-
-/*.facebookLink{*/
-	/*text-decoration: none;*/
-	/*font-family: Arial Regular, sans-serif;*/
-	/*font-size: 17pt;*/
-	/*color: #B9BFB7;*/
-	/*position: relative;*/
-	/*bottom: 3.1px;*/
-/*}*/
+.facebookLink{
+	text-decoration: none;
+	font-family: Arial Regular, sans-serif;
+	font-size: 17pt;
+	color: #B9BFB7;
+	position: relative;
+	bottom: 3.1px;
+}*/
 
 .left {
 	position: absolute;
