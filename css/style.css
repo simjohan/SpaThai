@@ -126,11 +126,23 @@ footer {
 	height: 120px;
 }
 
-#facebookLink{
+.facebookLink{
 	text-decoration: none;
 	font-family: Arial Regular, sans-serif;
 	font-size: 17pt;
 	color: #B9BFB7;
 	position: relative;
-	bottom: 4.3px;
+	bottom: 3.1px;
+}
+
+.contact{
+	font-family: "Century Gothic", sans-serif;
+	font-size: 20pt;
+	color: #CBD3BB;
+}
+
+.contactInfo{
+	font-family: Arial "Arial Regular", sans-serif;
+	color: #CBD3BB;
+	font-size: 18pt;
 }
