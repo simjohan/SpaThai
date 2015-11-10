@@ -65,6 +65,20 @@ section{
 	margin-bottom:20px;
 }
 
+.titleBanner{
+	background: #cbd3bb;
+	height: 112px; 
+	margin-bottom:20px;
+}
+
+.titleText{
+	color: white;
+	font-size: 32pt;
+	vertical-align: middle;
+	text-align: right;
+	line-height: 112px;
+}
+
 .articles {
 	padding-top: 40px;
 	padding-bottom: 40px;
