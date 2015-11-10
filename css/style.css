@@ -102,6 +102,11 @@ section{
 	margin: 0 auto;
 }
 
+#insideBehandlingerText{
+	width: 455px;
+	margin-left: 110px;
+}
+
 .arrow {
 	margin-top: 155px;
 }
