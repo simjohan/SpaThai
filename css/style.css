@@ -107,6 +107,12 @@ section{
 	margin-left: 110px;
 }
 
+#thaiMassage{
+	position: relative;
+	bottom: 350px;
+	left: 660px;
+}
+
 .arrow {
 	margin-top: 155px;
 }
