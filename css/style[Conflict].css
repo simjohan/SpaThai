@@ -126,7 +126,12 @@ section{
 	width: 480px;
 }
 
-#thai_massage{
+.image_container{
+	margin-left: 680px;
+	vertical-align: top;
+}
+
+/*#thai_massage{
 	position: relative;
 	bottom: 350px;
 	left: 660px;
@@ -136,7 +141,7 @@ section{
 	position: relative;
 	bottom: 280px;
 	left: 110px;
-}
+}*/
 
 .arrow {
 	margin-top: 155px;
