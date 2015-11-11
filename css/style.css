@@ -116,6 +116,11 @@ section{
 	margin: 0 auto;
 }
 
+#inside_prisliste{
+	width: 420px;
+	margin-left: 255px;
+}
+
 .inside_behandlinger_text{
 	width: 455px;
 	margin-left: 110px;
@@ -235,3 +240,64 @@ footer {
 	color: #CBD3BB;
 	font-size: 18pt;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Table CSS
+*/
+
+
+table{
+	border: 1px solid black;
+	width: 75%;
+	top: 30px;
+	height: 450px;
+	text-align: center;
+	border-collapse: collapse;
+	color: black;
+	vertical-align: top;
+}
+
+td, tr{
+	border: 1px solid;
+	width: 50px;
+	height: 30px;
+}
+
+th{
+	width: 210px;
+	height: 40px;
+
+}
+
+.table_container{
+
+}
+
+.shade{
+	/*background-color: rgba(105, 255, 97, 0.11);*/
+	background-color: #CBD3BB;
+
+}
+
+p{
+	left: 40%;
+}
+
+
