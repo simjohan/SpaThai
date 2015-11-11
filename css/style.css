@@ -97,20 +97,39 @@ section{
 	margin: 0;
 }
 
+#article1Behandlinger{
+	height: 395px;
+}
+
+#article2Behandlinger{
+	height: 415px;
+}
+
 .inside {
 	width: 1000px;
 	margin: 0 auto;
 }
 
-#insideBehandlingerText{
+.insideBehandlingerText{
 	width: 455px;
 	margin-left: 110px;
+}
+
+#hotstoneArticle{
+	margin-left: 680px;
+	width: 480px;
 }
 
 #thaiMassage{
 	position: relative;
 	bottom: 350px;
 	left: 660px;
+}
+
+#hotstone{
+	position: relative;
+	bottom: 280px;
+	left: 110px;
 }
 
 .arrow {
