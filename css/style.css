@@ -131,6 +131,7 @@ section{
 	height: 30px;
 	margin-right: 500px;
 	display: none;
+	z-index: 10000;
 
 }
 
@@ -142,7 +143,7 @@ section{
 
 .navigation_scroll_nav{
 	position: absolute;
-	bottom: 22px;
+	bottom: 23.5px;
 	right: 150px;
 }
 
