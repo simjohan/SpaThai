@@ -7,17 +7,17 @@ window.onload = function(){
   currentURL = "\""+currentURL+"\"";
 
   var navbar = "";
-  var links = [["HJEM",'"link1.html"'],
-      ["BEHANDLINGER",'"link2.html"'],
-      ["PRISER",'"index.html"'],
-      ["PRODUKTER",'"link4.html"'],
-      ["OM OSS",'"link5.html"']];
+  var links = [["HJEM",'"index.html"'],
+      ["BEHANDLINGER",'"treatments.html"'],
+      ["PRISER",'"prices.html"'],
+      ["PRODUKTER",'"produkter.html"'],
+      ["OM OSS",'"about.html"']];
 
   //adding the logo
-  navbar += '<div id="logo"><a href="index.html"><img src="../images/logo_default.png" alt="Logo" /></a></div>';
+  //navbar += '<div id="logo"><a href="index.html"><img src="../images/logo_default.png" alt="Logo" /></a></div>';
 
   //preparting the nav element
-  navbar += "<nav>";
+  //navbar += "<nav>";
 
   //adding the links the links
   for(i = 0; i < links.length; i++){
@@ -28,8 +28,8 @@ window.onload = function(){
       navbar += "<a href="+links[i][1]+">"+links[i][0]+"</a>";
     }
   }
-
-  navbar += "</nav>";
+  document.getElementById("navigation").innerHTML = navbar;
+  //navbar += "</nav>";
 
   console.log(navbar);
 

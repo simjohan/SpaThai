@@ -3,12 +3,19 @@
 <head>
 	<title>Spa Thai</title>
 	<link rel="icon" href="../images/icon.png" />
-	<!--<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> -->
 	<meta charset="UTF-8">
+
+	<script type="text/javascript" src="../js/load.js"></script>
+	<loadrequired></loadrequired>
+
+	<!-- Load css documents -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	<link rel="stylesheet" type="text/css" href="../js/jquery.bxslider.css" />
+
+	<!-- Load javascript files -->
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="../js/nav.js"></script>
 
 	<script type="text/javascript">
 	$( document ).ready(function() {
@@ -25,12 +32,10 @@
 		<div id="logo">
 			<a href="index.html"><img src="../images/logo_default.png" alt="Logo" /></a>
 		</div>
-		<nav>
-			<a href="index.html" class="active">HJEM</a>
-			<a href="treatments.html">BEHANDLINGER</a>
-			<a href="prices.html">PRISER</a>
-			<a href="products.html">PRODUKTER</a>
-			<a href="about.html">OM OSS</a>
+		<nav id="navigation">
+			<!--
+			The menu is included here by nav.js
+			-->
 		</nav>
 	</header>
 
