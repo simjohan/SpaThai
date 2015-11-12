@@ -121,12 +121,13 @@ section{
 
 .navigation_scroll{
 	position: fixed;
+	top: 0;
 	background-color: #9EAE7D;
 	width: 1265px;
 	height: 30px;
 	margin-right: 500px;
 	display: none;
-	z-index: 9;
+
 }
 
 .navigation_scroll_logo{
