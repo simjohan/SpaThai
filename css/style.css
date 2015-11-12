@@ -196,33 +196,29 @@ footer {
 }*/
 
 .left {
-	position: absolute;
-	top: 64px;
+	float:left;
 }
 
 .right {
-	position: absolute;
-	left: 870px;
-	top: 53px;
+	float:right;
 }
 
 .centerFooter{
-	position: absolute;
-	left: 510px;
-	top: 8px;
+	margin-left: 120px;
+	float:left;
 }
 
 footer {
 	background: #7a8070;
 	padding-top: 40px;
 	bottom: 0;
-	height: 200px;
-	position: relative;
+	height: 150px;
+	
 }
 
 .facebook_link{
 	text-decoration: none;
-	font-family: Arial Regular, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 17pt;
 	color: #B9BFB7;
 	position: relative;
@@ -232,37 +228,18 @@ footer {
 .contact{
 	color: #CBD3BB;
 	font-family: "Century Gothic", sans-serif;
-	font-size: 20pt;
+	font-size: 20px;
 }
 
 .contact_info{
-	font-family: "Arial Regular", sans-serif;
+	font-family: Arial, sans-serif;
 	color: #CBD3BB;
-	font-size: 18pt;
+	font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 Table CSS
 */
-
-
 table{
 	border: 1px solid black;
 	width: 75%;
