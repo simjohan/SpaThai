@@ -57,12 +57,15 @@ header > nav > a:hover {
 section{
 	color: #454545;
 	width: 100%;
+	min-width: 1000px;
 }
 
 #frontPageBanner {
 	background: #cbd3bb;
 	height: 341px;
 	margin-bottom:20px;
+	width: 100%;
+
 }
 
 .title_banner{
@@ -213,7 +216,7 @@ footer {
 	padding-top: 50px;
 	bottom: 0;
 	height: 170px;
-	
+	min-width: 1000px;
 }
 
 .facebook_link{
