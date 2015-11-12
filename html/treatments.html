@@ -5,6 +5,9 @@
 	<!--<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> -->
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/navigation_scroll.js"></script>
+	<script type="text/javascript" src="../js/nav.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -12,12 +15,21 @@
 			<div id="logo">
 				<a href="index.html"><img src="../images/logo_default.png" alt="Logo" /></a>
 			</div>
-			<nav>
-				<a href="index.html">HJEM</a>
-				<a href="treatments.html" class="active">BEHANDLINGER</a>
-				<a href="prices.html">PRISER</a>
-				<a href="products.html">PRODUKTER</a>
-				<a href="about.html">OM OSS</a>
+			<nav id="navigation">
+			<!--
+			The menu is included here by nav.js
+			-->
+		</nav>
+		</header>
+
+		<header class="navigation_scroll">
+			<div class="navigation_scroll_logo">
+				<a href="index.html"><img src="../images/navscroll_logo.png" alt="Logo" /></a>
+			</div>
+			<nav class="navigation_scroll_nav">
+			<!--
+			The menu is included here by nav.js
+			-->
 			</nav>
 		</header>
 
