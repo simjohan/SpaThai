@@ -116,6 +116,28 @@ section{
 	margin: 0 auto;
 }
 
+.navigation_scroll{
+	position: fixed;
+	background-color: #9EAE7D;
+	width: 1265px;
+	height: 30px;
+	margin-right: 500px;
+	display: none;
+	z-index: 9;
+}
+
+.navigation_scroll_logo{
+	position: absolute;
+	bottom: 13px;
+	left: 150px;
+}
+
+.navigation_scroll_nav{
+	position: absolute;
+	bottom: 22px;
+	right: 150px;
+}
+
 #inside_prisliste{
 	width: 420px;
 	margin-left: 255px;
