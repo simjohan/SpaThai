@@ -54,6 +54,10 @@ header > nav > a:hover {
 	text-decoration: underline;
 }
 
+header > nav > a.active_nav_scroll {
+	color: #EAF6D1;
+}
+
 section{
 	color: #454545;
 	width: 100%;
