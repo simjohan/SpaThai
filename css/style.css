@@ -204,25 +204,25 @@ footer {
 }
 
 .centerFooter{
-	margin-left: 120px;
+	margin-left: 150px;
 	float:left;
 }
 
 footer {
 	background: #7a8070;
-	padding-top: 40px;
+	padding-top: 50px;
 	bottom: 0;
-	height: 150px;
+	height: 170px;
 	
 }
 
 .facebook_link{
 	text-decoration: none;
 	font-family: Arial, sans-serif;
-	font-size: 17pt;
-	color: #B9BFB7;
+	font-size: 17px;
+	color: #CBD3BB;
 	position: relative;
-	bottom: 3.1px;
+
 }
 
 .contact{
