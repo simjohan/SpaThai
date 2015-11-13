@@ -1,10 +1,22 @@
 window.onload = function(){
-
+  
   //checking which site we are on to make it the active link
   var currentURL = window.location.href;
   currentURL = currentURL.split("/");
-  currentURL = currentURL[currentURL.length-1];
+
+
+  //check if url is /html/ where index.html automatically is chosen
+  if (currentURL[currentURL.length-2] == "html"){
+    currentURL = "index.html";
+  }
+  else{
+    currentURL = currentURL[currentURL.length-1];
+  }
+  
+
+  console.log(currentURL);
   currentURL = "\""+currentURL+"\"";
+
 
   var navbar = "";
   var navbar_scroll = "";
