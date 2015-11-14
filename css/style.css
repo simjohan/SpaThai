@@ -216,3 +216,18 @@ footer .facebook_link{
 
 }
 
+textarea {
+   resize: none;
+   width: 250px;
+   height: 150px;
+   border-color: #CBD3BB;
+}
+
+.inputField {
+	width: 250px;
+	border: 1px solid #CBD3BB;
+}
+
+#fylles{
+	font-size: 70%;
+}

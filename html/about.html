@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Spa Thai</title>
+	<meta charset="UTF-8">
+
+	<!-- Load favico icon -->
+	<link rel="icon" href="../images/icon.png" />
+
+	<!-- Load css documents -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../js/jquery.bxslider.css" />
+
+	<!-- Load javascript files -->
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="../js/nav.js"></script>
+	<script type="text/javascript" src="../js/navigation_scroll.js"></script>
+	<script type="text/javascript" src="../js/load.js"></script>
+	<loadrequired></loadrequired>
+
+	<!-- 
+		Slideshow
+		lib: jquery.bxslider.js
+	-->
+	<script type="text/javascript">
+	$(window).on("load", function() {
+		$('#slideshow_container').bxSlider({
+		  mode: 'fade'
+		});
+	});
+	</script>
+
+</head>
+<body>
+	<header class="inside">
+		<div id="logo">
+			<a href="index.html"><img src="../images/logo_default.png" alt="Logo" /></a>
+		</div>
+		<nav id="navigation">
+		<!--
+		The menu is included here by nav.js
+		-->
+		</nav>
+	</header>
+
+
+	<div id="navigation_scroll">
+		<header class="inside">
+			<div id="logo">
+				<a href="index.html"><img src="../images/navscroll_logo.png" alt="Logo" /></a>
+			</div>
+
+			<nav class="navigation_scroll_nav">
+			
+			The menu is included here by nav.js
+			
+			</nav>
+		</header>
+	</div>
+
+	<section id="title_banner">
+		<h1 class="inside">OM OSS</h1>
+	</section>
+	<section id="mailForm">
+		<div class="articles article1">
+			<div class="inside">
+				<form>
+
+					<h4>Navn*:<h4>
+					<input type="text" name="name" class="inputField" required><br><br>
+
+					<h4>Telefon:<h4>
+		  			<input type="text" name="email" class="inputField"><br><br>
+
+		  			<h4>Melding*:<h4>
+		  			<textarea name="comments" required></textarea>
+
+		  			<p id="fylles">* -Må fylles ut</p>
+
+		  			<input type="submit" value="Send">
+				</form>
+			</div>
+		</div>
+
+
+	</section>
+	<section>
+
+		<iframe width="600" height="450" frameborder="0" style="border:0"
+		src="https://www.google.com/maps/embed/v1/place?q=spa%20thai%20trondheim&key=AIzaSyCxQQx9rEj_r_dHBt_t_N3ra85YhzA3d_A" allowfullscreen></iframe>
+
+	</section>
+	<footer>
+		<div class="inside">
+			<div class="left">
+				<img src="../images/logo_footer.png" alt="Logo" />
+			</div>
+			<div class="centerFooter">
+				<span class="contact">Kontakt</span>
+				<p class="contact_info">Olav Tryggvasons gate 50 <br>
+					7011 Trondheim <br>
+					tlf: 73 53 34 00 <br>
+					suban@spathai.no</p>
+			</div>
+			<div class="right">
+				<img src="../images/facebook_logo.png" alt="fb logo" />
+				<a target="_blank" href="https://www.facebook.com/Andestad-Spa-Thai-160177054018087/" class="facebook_link">Besøk oss på facbook</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
