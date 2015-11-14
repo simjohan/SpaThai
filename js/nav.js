@@ -8,7 +8,7 @@ window.onload = function(){
   //check if url is /html/ where index.html automatically is chosen
 
   currentURL = currentURL[currentURL.length-1];
-  
+
   currentURL = "\""+currentURL+"\"";
 
 
@@ -17,7 +17,7 @@ window.onload = function(){
   var links = [["HJEM",'"index.html"'],
       ["BEHANDLINGER",'"treatments.html"'],
       ["PRISER",'"prices.html"'],
-      ["PRODUKTER",'"produkter.html"'],
+      ["PRODUKTER",'"products.html"'],
       ["OM OSS",'"about.html"']];
 
   //adding the logo
