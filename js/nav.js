@@ -6,12 +6,8 @@ window.onload = function(){
 
 
   //check if url is /html/ where index.html automatically is chosen
-  if (currentURL[currentURL.length-2] == "html"){
-    currentURL = "index.html";
-  }
-  else{
-    currentURL = currentURL[currentURL.length-1];
-  }
+
+  currentURL = currentURL[currentURL.length-1];
   
 
   console.log(currentURL);

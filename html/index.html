@@ -19,11 +19,14 @@
 	<script type="text/javascript" src="../js/load.js"></script>
 	<loadrequired></loadrequired>
 
+	<!-- 
+		Slideshow
+		lib: jquery.bxslider.js
+	-->
 	<script type="text/javascript">
 	$(window).on("load", function() {
 		$('#slideshow_container').bxSlider({
-		  mode: 'fade',
-//		  captions: true
+		  mode: 'fade'
 		});
 	});
 	</script>
@@ -35,22 +38,26 @@
 			<a href="index.html"><img src="../images/logo_default.png" alt="Logo" /></a>
 		</div>
 		<nav id="navigation">
-			<!--
-			The menu is included here by nav.js
-			-->
+		<!--
+		The menu is included here by nav.js
+		-->
 		</nav>
 	</header>
 
-	<header class="navigation_scroll">
-			<div class="navigation_scroll_logo">
+
+	<div id="navigation_scroll">
+		<header class="inside">
+			<div id="logo">
 				<a href="index.html"><img src="../images/navscroll_logo.png" alt="Logo" /></a>
 			</div>
+
 			<nav class="navigation_scroll_nav">
-			<!--
+			
 			The menu is included here by nav.js
-			-->
+			
 			</nav>
 		</header>
+	</div>
 
 	<section id="frontPageBanner">
 		<div class="inside">
