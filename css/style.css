@@ -232,4 +232,23 @@ textarea {
 	font-size: 70%;
 }
 
+#submit {
+    background-color: #CBD3BB;
+    border-radius:2px;
+    width: 75px;
+ 	height: 30px;
+    color: #fff;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    cursor: pointer;
+    border:none;
+    float:right;
+}
+
+
+
+#submit:hover {
+    background:#7a8070;
+}
+
 
