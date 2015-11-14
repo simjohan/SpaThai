@@ -213,22 +213,23 @@ footer .facebook_link{
 	font-size: 18px;
 }
 
-.table_container{
 
-}
 
+/*About*/
 textarea {
    resize: none;
-   width: 250px;
+   width: 470px;
    height: 150px;
    border-color: #CBD3BB;
 }
 
 .inputField {
-	width: 250px;
+	width: 470px;
 	border: 1px solid #CBD3BB;
 }
 
 #fylles{
 	font-size: 70%;
 }
+
+
