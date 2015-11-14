@@ -159,23 +159,24 @@ section{
 
 
 /* Main content, Articles */
-.articles {
+article {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid #e3e3e3;
 	line-height: 25px;
-}
+	overflow: auto;}
 
-.article2 {
+.lighter {
 	background: #f5f7f7;
-	margin: 0;
 }
 
-.text_left {
-	float:left;
-	width:300px;
+article .text {
+	width: 470px;
 }
 
+article img {
+	width: 470px;
+}
 
 
 /* Footer */
@@ -215,4 +216,3 @@ footer .facebook_link{
 .table_container{
 
 }
-
