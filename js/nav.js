@@ -1,5 +1,5 @@
 window.onload = function(){
-  
+
   //checking which site we are on to make it the active link
   var currentURL = window.location.href;
   currentURL = currentURL.split("/");
@@ -12,9 +12,7 @@ window.onload = function(){
   else{
     currentURL = currentURL[currentURL.length-1];
   }
-  
 
-  console.log(currentURL);
   currentURL = "\""+currentURL+"\"";
 
 
@@ -46,9 +44,6 @@ window.onload = function(){
   document.getElementById("navigation").innerHTML = navbar;
   document.getElementsByClassName("navigation_scroll_nav")[0].innerHTML = navbar_scroll;
   //navbar += "</nav>";
-
-  console.log(navbar);
-  console.log(navbar_scroll);
 
 
 
