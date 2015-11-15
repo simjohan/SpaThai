@@ -228,10 +228,6 @@ textarea {
 	border: 1px solid #CBD3BB;
 }
 
-#fylles{
-	font-size: 70%;
-}
-
 #submit {
     background-color: #CBD3BB;
     border-radius:2px;
@@ -245,10 +241,17 @@ textarea {
     float:right;
 }
 
-
-
 #submit:hover {
     background:#7a8070;
+}
+
+form input,textarea{
+	border-radius: 2px;
+}
+
+#omOss {
+	min-width: 0px;
+	width: 470px;
 }
 
 
