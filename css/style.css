@@ -19,25 +19,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Century Gothic';
+	font-family: 'Century Gothic', Arial;
 	font-weight: 100;
 	margin:0;
 	padding: 0;
 }
 
-#prisliste > .tabell:hover{
-	background-color: white;
-	width:550px;
-}
-
-
-#prisliste p, h1{
-	padding:0;
-	margin:0;
-}
-
-#prisliste{
-	padding-left: 450px;
+.tabell:hover{
+  background-color: white;
 }
 
 
@@ -45,8 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 300px;
 
 }
-
-
 
 /* Positioning classes */
 .inside {
@@ -105,7 +92,7 @@ header > nav > a:hover {
 }
 
 
-/* Header, Navigation scroll */ 
+/* Header, Navigation scroll */
 #navigation_scroll{
 	position: fixed;
 	top: 0;
@@ -274,5 +261,3 @@ form input,textarea{
 	min-width: 0px;
 	width: 470px;
 }
-
-
