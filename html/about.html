@@ -11,12 +11,20 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 
 	<!-- Load javascript files -->
-	<script type="text/javascript" src="../js/nav.js"></script>
+	
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	
 	<script type="text/javascript" src="../js/navigation_scroll.js"></script>
 	<script type="text/javascript" src="../js/form.js"></script>
+	<script type="text/javascript" src="../js/nav.js"></script>
+	
+	<!-- load googlemap -->
+	<script type="text/javascript">
+		addEventListener('load', function() {
 
+			document.getElementById("map").innerHTML = '<iframe width="470" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=spa%20thai%20trondheim&key=AIzaSyCxQQx9rEj_r_dHBt_t_N3ra85YhzA3d_A" allowfullscreen></iframe>'
+		});
+	</script>
 </head>
 <body>
 	<header class="inside">
@@ -64,8 +72,9 @@
 				</section>
 
 				<!-- Google map -->
-				<iframe width="470" height="450" frameborder="0" style="border:0"
-				src="https://www.google.com/maps/embed/v1/place?q=spa%20thai%20trondheim&key=AIzaSyCxQQx9rEj_r_dHBt_t_N3ra85YhzA3d_A" allowfullscreen></iframe>
+				<div id="map">
+				
+				</div>
 
 			</div>
 

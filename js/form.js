@@ -1,4 +1,4 @@
-window.onload = function(){
+addEventListener('load', function() {
 	document.getElementById("submit").addEventListener("click", function() {
 		var name = document.getElementById("name");
 		var comments = document.getElementById("comments");
@@ -22,4 +22,4 @@ window.onload = function(){
 			}
 		}
 	});
-}
+});
