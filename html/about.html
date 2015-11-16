@@ -17,12 +17,13 @@
 	<script type="text/javascript" src="../js/navigation_scroll.js"></script>
 	<script type="text/javascript" src="../js/form.js"></script>
 	<script type="text/javascript" src="../js/nav.js"></script>
+	<script type="text/javascript" src="../js/load.js"></script>
 	
 	<!-- load googlemap -->
 	<script type="text/javascript">
 		addEventListener('load', function() {
 
-			document.getElementById("map").innerHTML = '<iframe width="470" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=spa%20thai%20trondheim&key=AIzaSyCxQQx9rEj_r_dHBt_t_N3ra85YhzA3d_A" allowfullscreen></iframe>'
+			document.getElementById("map").innerHTML = '<iframe width="470" height="380" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=spa%20thai%20trondheim&key=AIzaSyCxQQx9rEj_r_dHBt_t_N3ra85YhzA3d_A" allowfullscreen></iframe>'
 		});
 	</script>
 </head>
@@ -42,7 +43,7 @@
 	<!-- Navigation scroll -->
 	<div id="navigation_scroll">
 		<header class="inside">
-			<div id="logo">
+			<div class="left">
 				<a href="index.html"><img src="../images/navscroll_logo.png" alt="Logo" /></a>
 			</div>
 
@@ -67,7 +68,7 @@
 					Alle våre massører har lang erfaring og er utdannet ved Wat Poo tempelet i Bangkok. Alle våre massører er også medlem av Norsk Massasjeforening.
 					Vi hjelper deg med dine plager som: hodepine, nakke, skulder og ryggplager.<br><br>
 					Avbestilling må skje minst 24 timer før avtale. Avtaler som ikke er avbestilt må betales i sin helhet.<br><br>
-					<h4>Adresse:<h4>
+					<h4>Adresse:</h4>
 					Olav Tryggvasons gate 50<br>
 					7011 Trondheim
 				</section>
@@ -82,13 +83,13 @@
 <!-- Right moves textfield to the right -->
 			<div class="text right">
 				<h2>Kontakt Oss</h2><br>
-					<h4>Navn*:<h4>
+					<h4>Navn*:</h4>
 					<input type="text" name="name" id="name" class="inputField" required><span id="name_msg"></span><br><br>
 
-					<h4>Mail:<h4>
+					<h4>Mail:</h4>
 		  			<input type="email" name="email" id="email" class="inputField"><br><br>
 
-		  			<h4>Melding*:<h4>
+		  			<h4>Melding*:</h4>
 		  			<textarea name="comments" id="comments" required></textarea><span id="comments_msg"></span>
 
 		  			<p id="fylles">* -Må fylles ut</p>
@@ -99,24 +100,10 @@
 
 	</article>
 
-<!-- Footer with general/practical information -->
-	<footer>
-		<div class="inside">
-			<div class="left">
-				<img src="../images/logo_footer.png" alt="Logo" />
-			</div>
-			<div class="centerFooter">
-				<span class="contact">Kontakt</span>
-				<p class="contact_info"><a href="https://www.google.no/maps/place/Andestad+Spa+Thai/@63.433177,10.389702,17z/data=!3m1!4b1!4m2!3m1!1s0x466d319b5181eb95:0x4e296173fc6dc7f5?hl=no">Olav Tryggvasons gate 50</a><br>
-					7011 Trondheim <br>
-					tlf: 73 53 34 00 <br>
-					<a href="mailto:suban@spathai.no?Subject=Directed%20from%20Spathai.no">suban@spathai.no</a></p>
-			</div>
-			<div class="right">
-				<img src="../images/facebook_logo.png" alt="fb logo" />
-				<a target="_blank" href="https://www.facebook.com/Andestad-Spa-Thai-160177054018087/" class="facebook_link">Besøk oss på facbook</a>
-			</div>
-		</div>
+
+	<footer id="footer">
+		<!-- The footer is loaded by load.js. Any customization of the footer happens there -->
+
 	</footer>
 </body>
 </html>

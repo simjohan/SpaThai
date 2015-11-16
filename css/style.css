@@ -94,7 +94,11 @@ header #logo {
 	float:left;
 }
 
+<<<<<<< HEAD
 /* rules for navigation i header */
+=======
+
+>>>>>>> 99525f27043ac504abcf67d1c87f126ab6bbf496
 header > nav {
 	float:right;
 }
@@ -136,7 +140,8 @@ header > nav > a:hover {
 /* rules for header */
 #navigation_scroll header {
 	height: 30px;
-	padding: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 /* rules for navigation_scroll */
@@ -166,6 +171,11 @@ header > nav > a:hover {
 #slideshow_container img {
 	margin-top: 40px;
 	border-radius: 5px;
+}
+
+.slideshow_text{
+	display: none;
+	position: absolute;
 }
 
 
