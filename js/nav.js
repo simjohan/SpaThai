@@ -20,12 +20,6 @@ window.onload = function(){
       ["PRODUKTER",'"products.html"'],
       ["OM OSS",'"about.html"']];
 
-  //adding the logo
-  //navbar += '<div id="logo"><a href="index.html"><img src="../images/logo_default.png" alt="Logo" /></a></div>';
-
-  //preparting the nav element
-  //navbar += "<nav>";
-
   //adding the links the links
   for(i = 0; i < links.length; i++){
     //if it is the currentURL make it active

@@ -9,27 +9,13 @@
 
 	<!-- Load css documents -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
-	<link rel="stylesheet" type="text/css" href="../js/jquery.bxslider.css" />
 
 	<!-- Load javascript files -->
-	<script type="text/javascript" src="../js/jquery.js"></script>
-	<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="../js/nav.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	
 	<script type="text/javascript" src="../js/navigation_scroll.js"></script>
-	<script type="text/javascript" src="../js/load.js"></script>
-	<loadrequired></loadrequired>
-
-	<!--
-		Slideshow
-		lib: jquery.bxslider.js
-	-->
-	<script type="text/javascript">
-	$(window).on("load", function() {
-		$('#slideshow_container').bxSlider({
-		  mode: 'fade'
-		});
-	});
-	</script>
+	<script type="text/javascript" src="../js/form.js"></script>
 
 </head>
 <body>
@@ -77,6 +63,7 @@
 					7011 Trondheim
 				</section>
 
+				<!-- Google map -->
 				<iframe width="470" height="450" frameborder="0" style="border:0"
 				src="https://www.google.com/maps/embed/v1/place?q=spa%20thai%20trondheim&key=AIzaSyCxQQx9rEj_r_dHBt_t_N3ra85YhzA3d_A" allowfullscreen></iframe>
 
@@ -84,20 +71,18 @@
 
 			<div class="text right">
 				<h2>Kontakt Oss</h2><br>
-				<form>
 					<h4>Navn*:<h4>
-					<input type="text" name="name" class="inputField" required><br><br>
+					<input type="text" name="name" id="name" class="inputField" required><span id="name_msg"></span><br><br>
 
-					<h4>Telefon:<h4>
-		  			<input type="text" name="email" class="inputField"><br><br>
+					<h4>Mail:<h4>
+		  			<input type="email" name="email" id="email" class="inputField"><br><br>
 
 		  			<h4>Melding*:<h4>
-		  			<textarea name="comments" required></textarea>
+		  			<textarea name="comments" id="comments" required></textarea><span id="comments_msg"></span>
 
 		  			<p id="fylles">* -Må fylles ut</p>
 
 		  			<input type="submit" value="Send" id="submit">
-				</form>
 			</div>
 		</div>
 
