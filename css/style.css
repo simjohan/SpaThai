@@ -8,8 +8,8 @@
          url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
 /* rules for the body */
 body {
 	background: #f2f2f2;
@@ -121,7 +121,6 @@ header > nav > a:hover {
 	color: #EAF6D1 !important;
 }
 
-
 /* Header, Navigation scroll */
 #navigation_scroll{
 	position: fixed;
@@ -182,8 +181,6 @@ header > nav > a:hover {
 	color: #fff;
 	font-size: 32px;
 }
-
-
 
 /* Main content */
 section{
@@ -265,8 +262,6 @@ footer a:hover{
 	font-size: 18px;
 }
 
-
-
 /*About*/
 textarea {
    resize: none;
@@ -303,8 +298,12 @@ form input,textarea{
 	border-radius: 2px;
 }
 
-/* rules for omOsst */
+/* rules for omOss */
 #omOss {
 	min-width: 0px;
 	width: 470px;
+}
+
+.facebook_link{
+  margin-left: 10px;
 }
