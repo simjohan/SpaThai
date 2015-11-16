@@ -10,7 +10,7 @@
     font-style: normal;
 
 }
-
+/* rules for the body */
 body {
 	background: #f2f2f2;
 	margin: 0;
@@ -18,18 +18,22 @@ body {
 	font-family: 'sans-serif', Arial;
 }
 
+/* Rules for different text types  */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Century Gothic', Arial;
 	font-weight: 100;
 	margin:0;
 	padding: 0;
 }
+
+/* rules for prisliste */
 #prisliste .right{
   border-left: 1px solid #cbd3bb;
   padding-left: 20px;
   height: 700px;
 }
 
+/* rules for tabell */
 .tabell{
   border-radius: 10px;
   border: 1px solid #f2f2f2;
@@ -37,36 +41,42 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
 }
 
+/* rules for tabell h1 */
 .tabell h1{
   font-weight: bold;
 }
+
+/* rules for tabell "on-hover" */
 .tabell:hover{
   background-color: white;
   border: 1px solid #cbd3bb;
 }
 
-
+/* rules for info */
 .info{
 	padding-left: 300px;
 
 }
 
-/* Positioning classes */
+/* rules for inside */
 .inside {
 	width: 1000px;
 	margin: 0 auto;
 }
 
+/* rules for center */
 .center {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 }
 
+/* rules for left */
 .left {
 	float:left;
 }
 
+/* rules for right */
 .right {
 	float:right;
 }
@@ -79,14 +89,17 @@ header {
 	padding-top:30px; /*182 px total*/
 }
 
+/* rules for logo */
 header #logo {
 	float:left;
 }
 
+/* rules for navigation i header */
 header > nav {
 	float:right;
 }
 
+/* rules fort a in nav in header */
 header > nav > a {
 	font-family: 'open_sansregular', 'sans-serif', Arial;
 	color: #bac2aa;
@@ -95,10 +108,12 @@ header > nav > a {
 	text-decoration: none;
 }
 
+/* rules for a.active in nav in header */
 header > nav > a.active {
 	color: #646b57;
 }
 
+/* Trules for a_hover in nav in header */
 header > nav > a:hover {
 	text-decoration: underline;
 }
@@ -118,15 +133,18 @@ header > nav > a:hover {
 	z-index: 10000;
 }
 
+/* rules for header */
 #navigation_scroll header {
 	height: 30px;
 	padding: 30px;
 }
 
+/* rules for navigation_scroll */
 #navigation_scroll a {
 	color: #cbd3bb;
 }
 
+/* rules for a:hover in navigation_scroll; */
 #navigation_scroll a:hover {
 	text-decoration: underline;
 }
@@ -136,6 +154,7 @@ header > nav > a:hover {
 	margin-top: 155px;
 }
 
+/* rules for slideshow_container */
 #slideshow_container {
 	width: 829px;
 	border-radius: 5px;
@@ -143,6 +162,7 @@ header > nav > a:hover {
 	margin-bottom: 10px;
 }
 
+/* rules for slideshow_container img */
 #slideshow_container img {
 	margin-top: 40px;
 	border-radius: 5px;
@@ -159,6 +179,7 @@ header > nav > a:hover {
 	text-align: right;
 }
 
+/* rules for title_banner */
 #title_banner h1 {
 	color: #fff;
 	font-size: 32px;
@@ -173,6 +194,7 @@ section{
 	min-width: 1000px;
 }
 
+/* rules for frontPageBanner */
 #frontPageBanner {
 	background: #cbd3bb;
 	height: 341px;
@@ -190,10 +212,13 @@ article {
 	line-height: 25px;
 	overflow: auto;}
 
+
+/* rules for lighter */
 .lighter {
 	background: #f5f7f7;
 }
 
+/* This is a single-line comment */
 article .text {
 	width: 470px;
 }
@@ -228,6 +253,8 @@ footer a:hover{
   text-decoration: underline;
 }
 
+
+/* rules for contact */
 .contact{
 	color: #CBD3BB;
 	font-family: "Century Gothic", sans-serif;
@@ -255,6 +282,7 @@ textarea {
 	border: 1px solid #CBD3BB;
 }
 
+/* rules for submit */
 #submit {
     background-color: #CBD3BB;
     border-radius:2px;
@@ -272,10 +300,12 @@ textarea {
     background:#7a8070;
 }
 
+/* rules for textarea */
 form input,textarea{
 	border-radius: 2px;
 }
 
+/* rules for omOsst */
 #omOss {
 	min-width: 0px;
 	width: 470px;
