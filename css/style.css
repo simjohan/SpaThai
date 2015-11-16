@@ -31,11 +31,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tabell{
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  border-top: 1px solid #cbd3bb;
   padding: 10px;
+}
+
+.tabell h1{
+  font-weight: bold;
 }
 .tabell:hover{
   background-color: white;
-  border-radius: 10px;
+  border: 1px solid #cbd3bb;
 }
 
 
