@@ -150,6 +150,11 @@ header > nav > a:hover {
 	border-radius: 5px;
 }
 
+.slideshow_text{
+	display: none;
+	position: absolute;
+}
+
 
 
 /* Page title */
