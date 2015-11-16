@@ -1,3 +1,5 @@
+//This file contains both the form validation and handling of sending email
+
 addEventListener('load', function() {
 	document.getElementById("submit").addEventListener("click", function() {
 		var name = document.getElementById("name");

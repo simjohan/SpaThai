@@ -83,6 +83,7 @@ header #logo {
 	float:left;
 }
 
+
 header > nav {
 	float:right;
 }
@@ -120,7 +121,8 @@ header > nav > a:hover {
 
 #navigation_scroll header {
 	height: 30px;
-	padding: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #navigation_scroll a {
