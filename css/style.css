@@ -82,7 +82,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /* Header section */
 header {
 	height: 142px;
@@ -94,11 +93,7 @@ header #logo {
 	float:left;
 }
 
-<<<<<<< HEAD
 /* rules for navigation i header */
-=======
-
->>>>>>> 99525f27043ac504abcf67d1c87f126ab6bbf496
 header > nav {
 	float:right;
 }
@@ -172,13 +167,6 @@ header > nav > a:hover {
 	margin-top: 40px;
 	border-radius: 5px;
 }
-
-.slideshow_text{
-	display: none;
-	position: absolute;
-}
-
-
 
 /* Page title */
 #title_banner{
